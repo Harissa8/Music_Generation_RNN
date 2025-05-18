@@ -3,6 +3,7 @@ A narrow-AI RNN/LSTM system that composes brand-new music from scratch.
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%20|%203.10-orange?logo=python)](#)
+
 NN (short for “Neural Notes” *and* the future first name of the project’s creator’s daughter) is a proof-of-concept generator that turns MIDI training data into fresh melodies, riffs and full-length pieces. It‘s deliberately **narrow AI**—it does one task well: generate music. No lyrics, no artwork—just tunes.
 
 ---
