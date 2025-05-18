@@ -18,9 +18,9 @@ NN (short for “Neural Notes” ) is a proof-of-concept generator that turns MI
 
 
 ## How It Works
-| **Dataset** | Any folder of `.mid` files. A preprocessing script converts each track to sequences of note/velocity/duration tokens. |
-| **Model** | 3-layer LSTM (embedding → 2 × LSTM → dense softmax). |
-| **Training** | Optimizer = Adam; default LR = 1e-3; teacher forcing ratio = 0.9. |
-| **Generation** | Temperature-controlled softmax sampling plus nucleus (top-p) filtering. |
-| **Output** | Generated token stream is converted back to a MIDI and optionally to .wav with FluidSynth. |
+| **Dataset** | Any folder of `.mid` files. A preprocessing script converts each track to sequences of note/velocity/duration tokens
+| **Model** | 3-layer LSTM (embedding → 2 × LSTM → dense softmax). 
+| **Training** | Optimizer = Adam; default LR = 1e-3; teacher forcing ratio = 0.9. 
+| **Generation** | Temperature-controlled softmax sampling plus nucleus (top-p) filtering. 
+| **Output** | Generated token stream is converted back to a MIDI and optionally to .wav with FluidSynth.
 
