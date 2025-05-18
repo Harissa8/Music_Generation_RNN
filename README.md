@@ -22,9 +22,9 @@ NN (short for “Neural Notes” ) is a proof-of-concept generator that turns MI
 
 | **Model** | 3-layer LSTM (embedding → 2 × LSTM → dense softmax). 
 
-| **Training** | Optimizer = Adam; default LR = 1e-3; teacher forcing ratio = 0.9. 
+| **Training** | Optimizer = Adam
 
-| **Generation** | Temperature-controlled softmax sampling plus nucleus (top-p) filtering. 
+| **Generation** | Temperature-controlled softmax sampling
 
 | **Output** | Generated token stream is converted back to a MIDI and optionally to .wav with FluidSynth.
 
